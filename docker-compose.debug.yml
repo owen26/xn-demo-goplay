@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  xn-demo-playgo:
+    image: xn-demo-playgo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - 8080:8080
